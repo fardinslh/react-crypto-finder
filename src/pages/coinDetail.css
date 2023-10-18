@@ -1,0 +1,28 @@
+.coin-detail-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    margin-top: 100px;
+    background-color: rgb(113, 216, 113);
+    max-width: 900px;
+    margin-right: 50px;
+    border-radius: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.coin-detail-container img {
+    width: 100px;
+    height: 100px;
+}
+
+.coin-detail-container a {
+    text-decoration: none;
+    background: rgb(198, 221, 198);
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}

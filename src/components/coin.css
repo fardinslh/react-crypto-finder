@@ -1,0 +1,33 @@
+.link {
+    text-decoration: none;
+    background-color: rgb(164, 207, 164);
+    padding: 20px 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 300px;
+    color: black;
+    font-weight: bold;
+    text-transform: capitalize;
+    border-radius: 5px;
+
+}
+
+.coin-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.coin-container button {
+    margin-left: 10px;
+    justify-self: flex-end;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+}
+
+.image {
+    width: 37px;
+    height: 37px;
+    margin-right: 10px;
+}
